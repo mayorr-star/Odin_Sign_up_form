@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" type="image/x-icon" href="">
+</head>
+
+<body>
+    <main>
+        <section class="image-section">
+            <div class="transparent-background">
+                <div class="logo">
+                    <img src="./css/images/odin-lined.png" alt="odin logo">
+                    <span>ODIN</span>
+                </div>
+            </div>
+        </section>
+        <section class="info">
+            <div class="description">
+                <p>This is not a real online service! You know you need something like this in your life to help hello
+                    you realize your deepest dreams. Sign up now to get started.</p>
+                <span>You know you want to.</span>
+            </div>
+            <div class="form">
+                <span class="do-this">Let's do this!</span>
+                <form action="#" method="post">
+                    <div class="fields">
+                        <fieldset>
+                            <label for="first_name">First name</label>
+                            <input type="text" id="first_name" name="first_name"
+                                placeholder="Please enter your first name" required minlength="2">
+                            <label for="user_email">Email</label>
+                            <input type="email" id="user_email" name="user_email" required>
+                            <label for="user_password">Password</label>
+                            <input type="password" id="user_password" class="error" name="user_password" required>
+                        </fieldset>
+                        <fieldset>
+                            <label for="last_name">last name</label>
+                            <input type="text" id="last_name" name="last_name" placeholder="Please enter your last name"
+                                required minlength="2">
+                            <label for="user_contact">Phone number</label>
+                            <input type="tel" id="user_contact" name="user_contact" required minlength="10"
+                                maxlength="10">
+                            <label for="confirm_password">Password</label>
+                            <input type="password" id="confirm_password" class="error" name="confirm_password" required>
+                        </fieldset>
+                    </div>
+                    <button type="submit">Create Account</button>
+                </form>
+            </div>
+            <span class="acc_check">Already have an account? <span class="log">Log in</span></span>
+        </section>
+    </main>
+</body>
+
+</html>
