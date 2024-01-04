@@ -54,7 +54,11 @@ section.info {
   padding-bottom: 200px;
 }
 
-.fieds {
+#user_password{
+    margin: 0;
+}
+
+.fields {
     display: flex;
 }
 
@@ -89,6 +93,10 @@ input {
 
 input.error{
     border: 1px solid red;
+}
+
+small.error{
+    color: red;
 }
 
 input:focus{
